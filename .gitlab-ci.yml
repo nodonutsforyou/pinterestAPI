@@ -1,0 +1,7 @@
+stages:
+  - acceptance-tests
+
+run-Cucumber-tests:
+  stage: acceptance-tests
+  script:
+    - behave
